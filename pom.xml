@@ -18,12 +18,6 @@
    -->
 
 	<modelVersion>4.0.0</modelVersion>
-  
-<!--   <parent>
-		<groupId>org.symphonyoss</groupId>
-		<artifactId>symphonyoss</artifactId>
-		<version>11</version>
-	</parent> -->
 	
   <groupId>com.symphony.oss</groupId>
 	<artifactId>oss-parent-pom</artifactId>
@@ -94,10 +88,11 @@
 		
     <guava.version>23.5-jre</guava.version>
 
-		<jetty.version>9.4.14.v20181114</jetty.version>
+		<jetty.version>9.4.19.v20190610</jetty.version>
 		<mortbay.alpm.version>8.1.11.v20170118</mortbay.alpm.version>
 		
-		<jackson.version>2.9.8</jackson.version>
+		<jackson.version>2.9.9</jackson.version>
+    <jackson-databind.version>2.9.9.1</jackson-databind.version>
 
 		<commons.codec.version>1.10</commons.codec.version>
 
@@ -567,7 +562,7 @@
 			<dependency>
 				<groupId>com.fasterxml.jackson.core</groupId>
 				<artifactId>jackson-databind</artifactId>
-				<version>${jackson.version}</version>
+				<version>${jackson-databind.version}</version>
 			</dependency>
 
 			<dependency>
@@ -581,6 +576,41 @@
 	      <artifactId>commons-text</artifactId>
 	      <version>1.4</version>
 		   </dependency>
+		   
+      <dependency>
+          <groupId>org.apache.httpcomponents</groupId>
+          <artifactId>httpclient</artifactId>
+          <version>4.5.4</version>
+      </dependency>
+      
+      <dependency>
+        <groupId>org.apache.httpcomponents</groupId>
+        <artifactId>httpasyncclient</artifactId>
+        <version>4.1.3</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.httpcomponents</groupId>
+        <artifactId>httpcore</artifactId>
+        <version>4.4.7</version>
+      </dependency>
+      
+      <dependency>
+        <groupId>io.jsonwebtoken</groupId>
+        <artifactId>jjwt-api</artifactId>
+        <version>0.10.5</version>
+      </dependency>
+      <dependency>
+        <groupId>io.jsonwebtoken</groupId>
+        <artifactId>jjwt-impl</artifactId>
+        <version>0.10.5</version>
+        <scope>runtime</scope>
+      </dependency>
+      <dependency>
+        <groupId>io.jsonwebtoken</groupId>
+        <artifactId>jjwt-jackson</artifactId>
+        <version>0.10.5</version>
+        <scope>runtime</scope>
+      </dependency>
 
 			<dependency>
 				<groupId>org.apache.logging.log4j</groupId>
