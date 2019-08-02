@@ -21,7 +21,7 @@
   
   <groupId>com.symphony.oss</groupId>
   <artifactId>oss-parent-pom</artifactId>
-  <version>0.0.4-SNAPSHOT</version>
+  <version>0.0.4</version>
   <packaging>pom</packaging>
   
   <name>oss-home</name>
@@ -39,7 +39,7 @@
     <connection>scm:git:git://github.com/SymphonyOSF/oss-home.git</connection>
     <developerConnection>scm:git:git@github.com:SymphonyOSF/oss-home.git</developerConnection>
     <url>https://github.com/SymphonyOSF/oss-home</url>
-    <tag>HEAD</tag>
+    <tag>oss-parent-pom-0.0.4</tag>
   </scm>
 
   <developers>
