@@ -907,6 +907,10 @@
 									<goals>
 										<goal>sign</goal>
 									</goals>
+                  <configuration>
+                   <keyname>oss@symphony.com</keyname>
+                   <passPhraseServerId>symphony-oss-passphrase</passPhraseServerId>
+                  </configuration>
 								</execution>
 							</executions>
 						</plugin>
