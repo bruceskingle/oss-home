@@ -810,7 +810,7 @@
 			Central -->
 		<pluginRepositories>
 			<pluginRepository>
-				<id>ossrh</id>
+				<id>symphony-oss-rh</id>
 				<name>OSSRH Public Group</name>
 				<url>
 	https://oss.sonatype.org/content/repositories/snapshots/
@@ -824,7 +824,7 @@
 			on Maven Central -->
 		<repositories>
 			<repository>
-				<id>ossrh</id>
+				<id>symphony-oss-rh</id>
 				<name>OSSRH Public Group</name>
 				<url>
 	https://oss.sonatype.org/content/repositories/snapshots/
@@ -836,12 +836,12 @@
 		</repositories>
 		<distributionManagement>
 			<repository>
-				<id>ossrh-distro</id>
+				<id>symphony-oss-rh-distro</id>
 				<name>${distMgmtReleaseName}</name>
 				<url>${distMgmtReleaseUrl}</url>
 			</repository>
 			<snapshotRepository>
-				<id>ossrh</id>
+				<id>symphony-oss-rh</id>
 				<name>${distMgmtSnapshotsName}</name>
 				<url>${distMgmtSnapshotsUrl}</url>
 			</snapshotRepository>
