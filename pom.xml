@@ -220,7 +220,11 @@
             <configuration>
               <gpgArguments>
                 <arg>--batch</arg>
+                <arg>--armour</arg>
                 <arg>--digest-algo=SHA512</arg>
+                <arg>--local-user=oss@symphony.com</arg>
+                <arg>--detach-sign</arg>
+                <arg>--pinentry-mode=loopback</arg>
               </gpgArguments>
             </configuration>
           </plugin>
