@@ -24,6 +24,7 @@
   <version>0.0.3-SNAPSHOT</version>
   <packaging>pom</packaging>
   
+  <name>oss-home</name>
   <url>https://github.com/SymphonyOSF/oss-home</url>
   <description>Symphony OSS Parent POM</description>
 
